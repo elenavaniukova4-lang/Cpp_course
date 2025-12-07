@@ -2,7 +2,6 @@
 #define DYNAMICARRAY_H
 
 #include <stdexcept>
-#include "DynamicArray.cpp"
 
 template<typename T>
 class DynamicArray {
@@ -28,4 +27,6 @@ public:
     void resize(size_t newSize);
 };
 
+#include "DynamicArray.cpp"
 #endif
+
